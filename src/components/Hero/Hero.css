@@ -1,0 +1,226 @@
+.hero{
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;  
+   background-image: url(../../assets/_DSC2543-cover.jpg);
+   background-position: bottom;
+   background-size: cover;
+}
+.left-h{
+    padding:2rem ;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+.right-h{
+    flex: 1;
+    position: relative;
+}
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+.the-best-ad>div{
+   position: absolute;
+   background-color: var(--orange);
+   width: 5.4rem;
+   height: 80%;
+   left: 8px;
+   border-radius: 3rem; 
+   z-index: 1;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: white;
+    text-overflow: inherit;
+}
+.hero-text>div:nth-of-type(3){
+font-size: 1rem;
+font-weight: 200;
+text-transform: none;
+letter-spacing: 1px;
+width: 80%;
+}
+.hero-text>.text-help>span{
+    display: flex;
+    align-items: flex-start;
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+}
+.figures>div>span:nth-of-type(2){
+    color: var(--gray);
+    text-transform: uppercase;
+}
+.hero-buttons{
+display: flex;
+gap: 1rem;
+font-weight: normal;
+}
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: #f48915;
+    width: 8rem;
+}
+.hero-buttons>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid #f48915;
+}
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+}
+.right-h>.heart-rate>img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10px;
+}
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+.heart-rate>:nth-child(2){
+color: var(--gray);
+text-transform: capitalize;
+}
+.heart-rate>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+.right-h>.hero_image_back{
+    position: absolute;
+    top: 36%;
+    left: -12%;
+    transform: translate(-50%,-50%); 
+}
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: #393a3b;
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 31rem;
+    right: 43rem;
+}
+.calories>img{
+    width: 3rem;
+
+}
+.calories>div{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calories>div>:nth-child(1){
+    color: var(--gray);
+}
+.calories>div>:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:768px) {
+    .hero{
+        flex-direction: column;
+    }
+    .the-best-ad{
+        margin-top: 0;
+        font-size: small;
+        align-self: center;
+        transform: scale(0.8);
+    }
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-text> div:nth-of-type(3){
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .hero-buttons{
+        justify-content: center;
+    }
+    .figures>div>span:nth-of-type(1){
+        font-size: large;   
+    }
+    .figures>div>span:nth-of-type(2){
+        font-size: small;   
+    }
+  .right-h{
+    position: relative;
+  }
+  .right-h>.btn{
+    display: none;
+  }
+  .heart-rate{
+     position: relative;
+     left: 1rem;
+     top: -1rem;
+  }
+  .calories{
+    position: relative;
+    top: -10rem;
+    left: 9.8rem;
+    width: 9rem;
+  }
+  .calories>img{
+    width: 2rem;
+  }
+  .calories>div>:nth-child(2){
+    color: white;
+    font-size: 1rem;
+  }
+  .hero_image_back{
+   display: none;
+  }
+}

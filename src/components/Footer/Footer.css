@@ -1,0 +1,28 @@
+
+.Footer{
+    position: relative;
+ }
+ .Footer>hr{
+    border: 1px solid var(--lightgray);
+ }
+ .footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+ }
+ .social-links{
+   display: flex;
+   gap: 2rem;
+ }
+ .social-links>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+ }
+ .logo2{
+    font-size: 1.5rem;
+}
