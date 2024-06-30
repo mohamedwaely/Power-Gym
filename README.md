@@ -1,11 +1,13 @@
-##PowerGym Web Application Project For Feild Training Course.
-##Collaborated with a UI/UX designer, frontend, and backend developers to ensure a cohesive and user-friendly design.
-###User Registration and Login
-####-Implemented user authentication features, allowing new users to register and existing users to log in securely.
-####-Designed a seamless and intuitive user interface to enhance the registration and login experience.
-###User Count and Database Integration
-####-Developed a user count feature to track and analyze user engagement within the application.
-####-Integrated the backend with a MySQL database to ensure efficient data management and seamless functionality.
+## PowerGym Web Application Project For Feild Training Course.
+
+## Collaborated with a UI/UX designer, frontend, and backend developers to ensure a cohesive and user-friendly design.
+
+### User Registration and Login
+#### -Implemented user authentication features, allowing new users to register and existing users to log in securely.
+#### -Designed a seamless and intuitive user interface to enhance the registration and login experience.
+### User Count and Database Integration
+#### -Developed a user count feature to track and analyze user engagement within the application.
+#### -Integrated the backend with a MySQL database to ensure efficient data management and seamless functionality.
 
 
 
