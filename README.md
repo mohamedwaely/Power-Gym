@@ -8,10 +8,7 @@
 ### User Count and Database Integration
 #### -Developed a user count feature to track and analyze user engagement within the application.
 #### -Integrated the backend with a MySQL database to ensure efficient data management and seamless functionality.
-
-
-
-
+                                    ###
 
 # Getting Started with Create React App
 
